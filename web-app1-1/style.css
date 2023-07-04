@@ -1,0 +1,36 @@
+.frame{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+ 
+    position: relative;
+    text-align: center;
+    
+  
+}
+.box a{
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: rgb(6, 196, 132);
+   
+}
+img{
+   text-align: center;
+  
+}
+.a1{
+   
+right: 0;
+}
+.a2{
+left: 0;
+}

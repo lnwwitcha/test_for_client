@@ -1,0 +1,94 @@
+.frame2{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box_products{
+    width: 150px;
+    height: 220px;
+    background-color: rgb(233, 255, 233);
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgb(153, 143, 140) ;
+    border-radius: 5px;
+    margin: 3px;
+    transition: 1s;
+
+    
+}
+.image{
+    width: 70%;
+    padding: 0;
+    margin: auto;
+     justify-content: center;
+}
+.img_product{
+    width: 80%;
+    position: absolute;
+  
+}
+.product_name{
+    position: absolute;
+    bottom:60px;
+    left: 2px;
+}
+.box_input_amount{
+    width: 70%;
+    margin-left: 3px;
+    
+}
+.input_amount{
+    width: 100%;
+}
+.detail_ather{
+    margin-top: 140px;
+    text-align: center;
+    padding: 0px;
+}
+.detail_ather div{
+    display: inline-block;
+    padding:0px 10px 0px ;
+    
+}
+.unit{
+    box-sizing: border-box;
+    }
+.price{
+    box-sizing: border-box;
+   }
+.unit p{
+    /* border: 1px solid green; */
+    padding-left: 0px;
+    margin: 0px;
+} 
+.price p{
+    /* border: 1px solid green; */
+    padding: 0px;
+    margin: 0px;
+}
+div .unit_value {
+    width: 45%;
+    height: 18px;
+    border: 1px solid salmon;
+    padding: 0;
+}
+div .price_value{
+    width: 45%;
+    height: 18px;
+    border: 1px solid salmon;
+    padding: 0;
+}
+div .unit{
+    padding: 0;
+}
+div .price{
+    padding: 0;
+    float: right;
+    margin-right: 1px;
+}
+.box_products:hover{
+    scale: 1.15;
+    z-index: 5;
+}
